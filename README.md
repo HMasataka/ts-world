@@ -32,3 +32,9 @@ tsc --init
 npm install webpack ts-loader @webpack-cli/generators
 npx webpack-cli init
 ```
+
+## Serve
+
+```bash
+npm run serve
+```
