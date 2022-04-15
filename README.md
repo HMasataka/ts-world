@@ -17,3 +17,11 @@ tsc sample.ts
 ```bash
 node sample.js
 ```
+
+## Initialize project
+
+```bash
+npm init -y
+npm install typescript @types/node --save-dev
+tsc --init
+```
