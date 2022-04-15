@@ -25,3 +25,10 @@ npm init -y
 npm install typescript @types/node --save-dev
 tsc --init
 ```
+
+### webpack
+
+```bash
+npm install webpack ts-loader @webpack-cli/generators
+npx webpack-cli init
+```
