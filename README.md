@@ -9,13 +9,13 @@ npm install -g typescript
 ## Compile
 
 ```bash
-tsc sample.ts
+tsc src/index.ts
 ```
 
 ## Run
 
 ```bash
-node sample.js
+node src/index.js
 ```
 
 ## Initialize project
