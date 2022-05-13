@@ -6,7 +6,7 @@ const PORT = 3000
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.get('/', async (req: express.Request, res: express.Response) => {
+app.get('/', async (_: express.Request, res: express.Response) => {
   return res.status(200).send({
     message: 'Hello World!',
   })
