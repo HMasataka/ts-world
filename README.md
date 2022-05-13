@@ -26,15 +26,8 @@ npm install typescript @types/node --save-dev
 tsc --init
 ```
 
-### webpack
-
-```bash
-npm install webpack ts-loader @webpack-cli/generators
-npx webpack-cli init
-```
-
 ## Serve
 
 ```bash
-npm run serve
+npm run start
 ```
