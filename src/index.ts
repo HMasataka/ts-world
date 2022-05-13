@@ -1,5 +1,5 @@
 import express from 'express'
-import mysql, { createConnection } from 'mysql';
+import mysql, { createConnection } from 'mysql2';
 
 const app: express.Application = express()
 const PORT: number = 3000
@@ -15,7 +15,7 @@ app.listen(PORT, () => {
 
 async function helloWorld(_: express.Request, res: express.Response) {
   const connection = conn()
-  connection.query("SELECT * FROM users;",(err, rows, _) => {
+  connection.query("SELECT * FROM users;", (err, rows, _) => {
     if (err) throw err;
     res.status(200).send({message:rows})
   });
